@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b43cb914-332a-40b7-8f58-3d3c099ac028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p01/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="b43cb914-332a-40b7-8f58-3d3c099ac028" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +96,7 @@
       <updated>1638240646116</updated>
       <workItem from="1638240649746" duration="4272000" />
       <workItem from="1638256611503" duration="2916000" />
-      <workItem from="1638260163647" duration="1517000" />
+      <workItem from="1638260163647" duration="1794000" />
     </task>
     <servers />
   </component>
