@@ -20,22 +20,36 @@ public class ShapeRectTest {
         System.out.println("-----------------");
 
         // 3.声明Shape类型的引用，指向Rect类型的对象并打印
-        Shape s2 = new Rect(7, 8, 9, 10);
+        Shape sr = new Rect(7, 8, 9, 10);
         // 当Rect类中没有重写show方法时，下面调用Shape类的show方法
         // 当Rect类中重写show方法后，下面调用Rect类中的show方法
         // 下面代码在编译阶段调用Shape类的方法，在运行阶段调用Rect类中的show方法
-        s2.show();
+        sr.show();
 
 
         // 4.测试Shape类型的引用能否直接调用父类和子类独有的方法？
-        int x = s2.getX();
+        int x = sr.getX();
         System.out.println("x = " + x);
-//   s2.getLength(); // Cannot resolve method 'getLength' in 'Shape'
+//   sr.getLength(); // Cannot resolve method 'getLength' in 'Shape'
         // 调用静态方法
         // 提示不建议用引用.的方式访问静态方法
         // Static member 'p04.Shape.test()' accessed via instance reference
-        s2.test();   // Shape类中的静态方法
+        sr.test();   // Shape类中的静态方法
 
         Shape.test(); // Shape类中的静态方法
+
+        // 5.使用父类类型的引用调用子类独有方法的方式
+        int length = ((Rect) sr).getLength();
+        System.out.println("length = " + length);
+
+//        Circle c1 = (Circle) sr; // 编译通过，运行阶段发生错误，  ClassCastException
+
+        // 判断sr指向堆区内存中的对象是否为Circle类型
+        if (sr instanceof Circle){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
+
+        }
     }
 }
