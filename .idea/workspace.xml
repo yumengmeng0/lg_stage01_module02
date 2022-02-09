@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43cb914-332a-40b7-8f58-3d3c099ac028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/ShapeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/SubAbstractTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p04/ShapeRectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p04/ShapeRectTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +171,7 @@
       <workItem from="1641207253882" duration="3199000" />
       <workItem from="1641219418303" duration="144000" />
       <workItem from="1641779025244" duration="2140000" />
-      <workItem from="1644368593948" duration="2721000" />
+      <workItem from="1644368593948" duration="3108000" />
     </task>
     <servers />
   </component>
