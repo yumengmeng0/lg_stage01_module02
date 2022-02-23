@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43cb914-332a-40b7-8f58-3d3c099ac028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/FixedAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/Gold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/Hunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/InterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/Metal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p04/SubAbstractTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/NormalOuter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/NormalOuterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/StaticOuter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/StaticOuterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p04/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p04/AbstractTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,20 +78,7 @@
       <recent name="E:\lagou\lg_stage01_module02\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Man">
-    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p04.AbstractTest" />
-      <module name="lg_stage01_module02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StaticOuterTest">
     <configuration name="FixedAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p04.FixedAccount" />
       <module name="lg_stage01_module02" />
@@ -138,12 +118,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubAbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p04.SubAbstractTest" />
+    <configuration name="NormalOuterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p05.NormalOuterTest" />
       <module name="lg_stage01_module02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p04.*" />
+          <option name="PATTERN" value="p05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticOuterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p05.StaticOuterTest" />
+      <module name="lg_stage01_module02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticOuterTest" />
+        <item itemvalue="Application.NormalOuterTest" />
         <item itemvalue="Application.Man" />
         <item itemvalue="Application.Gold" />
         <item itemvalue="Application.FixedAccount" />
-        <item itemvalue="Application.AbstractTest" />
-        <item itemvalue="Application.SubAbstractTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +177,8 @@
       <workItem from="1641219418303" duration="144000" />
       <workItem from="1641779025244" duration="2140000" />
       <workItem from="1644368593948" duration="4912000" />
-      <workItem from="1644484093819" duration="3169000" />
+      <workItem from="1644484093819" duration="4671000" />
+      <workItem from="1645585787726" duration="2508000" />
     </task>
     <servers />
   </component>
@@ -202,26 +196,26 @@
     </state>
     <state x="3402" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639657396639" />
     <state x="1482" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1644485923684" />
-    <state width="1439" height="165" key="GridCell.Tab.0.bottom" timestamp="1644486027880">
+    <state width="1169" height="178" key="GridCell.Tab.0.bottom" timestamp="1645588093279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="1439" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1644486027880" />
-    <state width="1439" height="165" key="GridCell.Tab.0.center" timestamp="1644486027880">
+    <state width="1169" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1645588093279" />
+    <state width="1169" height="178" key="GridCell.Tab.0.center" timestamp="1645588093279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="1439" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1644486027880" />
-    <state width="1439" height="165" key="GridCell.Tab.0.left" timestamp="1644486027880">
+    <state width="1169" height="178" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1645588093279" />
+    <state width="1169" height="178" key="GridCell.Tab.0.left" timestamp="1645588093279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="1439" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1644486027880" />
-    <state width="1439" height="165" key="GridCell.Tab.0.right" timestamp="1644486027880">
+    <state width="1169" height="178" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1645588093279" />
+    <state width="1169" height="178" key="GridCell.Tab.0.right" timestamp="1645588093279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="1439" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1644486027880" />
+    <state width="1169" height="178" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1645588093279" />
     <state x="1112" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1644485673916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
