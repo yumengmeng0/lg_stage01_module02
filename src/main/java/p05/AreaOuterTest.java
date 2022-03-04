@@ -7,4 +7,9 @@ package p05;
  * @description:
  */
 public class AreaOuterTest {
+
+    public static void main(String[] args) {
+        AreaOuter areaOuter = new AreaOuter();
+        areaOuter.show();
+    }
 }

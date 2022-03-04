@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43cb914-332a-40b7-8f58-3d3c099ac028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/NormalOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/NormalOuterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/StaticOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/StaticOuterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/AnonymousInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/AnonymousInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/AnonymousInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionEnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionEnumUseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/p05/AreaOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p05/AreaOuter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/p05/AreaOuterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p05/AreaOuterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -72,54 +80,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="p05" />
       <recent name="p02" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\lagou\lg_stage01_module02\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticOuterTest">
-    <configuration name="FixedAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p04.FixedAccount" />
-      <module name="lg_stage01_module02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Gold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p04.Gold" />
-      <module name="lg_stage01_module02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Man" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p04.Man" />
-      <module name="lg_stage01_module02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NormalOuterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p05.NormalOuterTest" />
+  <component name="RunManager" selected="Application.DirectionEnumTest">
+    <configuration name="AnonymousInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p05.AnonymousInterfaceTest" />
       <module name="lg_stage01_module02" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +101,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticOuterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p05.StaticOuterTest" />
+    <configuration name="AreaOuterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p05.AreaOuterTest" />
+      <module name="lg_stage01_module02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectionEnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p05.DirectionEnumTest" />
+      <module name="lg_stage01_module02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectionEnumUseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p05.DirectionEnumUseTest" />
+      <module name="lg_stage01_module02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p05.DirectionTest" />
       <module name="lg_stage01_module02" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticOuterTest" />
-        <item itemvalue="Application.NormalOuterTest" />
-        <item itemvalue="Application.Man" />
-        <item itemvalue="Application.Gold" />
-        <item itemvalue="Application.FixedAccount" />
+        <item itemvalue="Application.DirectionEnumTest" />
+        <item itemvalue="Application.DirectionEnumUseTest" />
+        <item itemvalue="Application.DirectionTest" />
+        <item itemvalue="Application.AnonymousInterfaceTest" />
+        <item itemvalue="Application.AreaOuterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +187,9 @@
       <workItem from="1641779025244" duration="2140000" />
       <workItem from="1644368593948" duration="4912000" />
       <workItem from="1644484093819" duration="4671000" />
-      <workItem from="1645585787726" duration="2508000" />
+      <workItem from="1645585787726" duration="4559000" />
+      <workItem from="1645670091141" duration="1198000" />
+      <workItem from="1646357219074" duration="5924000" />
     </task>
     <servers />
   </component>
@@ -191,46 +202,46 @@
     </state>
     <state x="2472" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639654216651" />
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1638243873282" />
-    <state x="1482" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1644485923684">
+    <state x="1482" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1646362460535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="3402" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639657396639" />
-    <state x="1482" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1644485923684" />
-    <state width="1169" height="178" key="GridCell.Tab.0.bottom" timestamp="1645588093279">
+    <state x="1482" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1646362460535" />
+    <state width="913" height="161" key="GridCell.Tab.0.bottom" timestamp="1646362254021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="1169" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1645588093279" />
-    <state width="1169" height="178" key="GridCell.Tab.0.center" timestamp="1645588093279">
+    <state width="913" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1646362254021" />
+    <state width="913" height="161" key="GridCell.Tab.0.center" timestamp="1646362254020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="1169" height="178" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1645588093279" />
-    <state width="1169" height="178" key="GridCell.Tab.0.left" timestamp="1645588093279">
+    <state width="913" height="161" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1646362254020" />
+    <state width="913" height="161" key="GridCell.Tab.0.left" timestamp="1646362254020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="1169" height="178" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1645588093279" />
-    <state width="1169" height="178" key="GridCell.Tab.0.right" timestamp="1645588093279">
+    <state width="913" height="161" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1646362254020" />
+    <state width="913" height="161" key="GridCell.Tab.0.right" timestamp="1646362254021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="1169" height="178" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1645588093279" />
-    <state x="1112" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1644485673916">
+    <state width="913" height="161" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1646362254021" />
+    <state x="854" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1646361596649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1112" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1644485673916" />
+    <state x="854" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1646361596649" />
     <state x="2044" y="179" width="1546" height="707" maximized="true" key="dock-window-1" timestamp="1640612342912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2011" y="25" width="1637" height="985" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1639652998692" />
     <state x="2044" y="179" width="1546" height="707" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640601898771" />
     <state x="2044" y="179" width="1546" height="707" maximized="true" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1640612342912" />
-    <state x="1273" y="297" width="647" height="534" key="find.popup" timestamp="1644373080093">
+    <state x="1273" y="297" width="647" height="534" key="find.popup" timestamp="1646359365909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="3193" y="297" width="647" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1640599904258" />
-    <state x="1273" y="297" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644373080093" />
+    <state x="1273" y="297" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1646359365909" />
     <state x="513" y="151" key="new project wizard" timestamp="1638260148924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
