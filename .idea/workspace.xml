@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b43cb914-332a-40b7-8f58-3d3c099ac028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/AnonymousInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/AnonymousInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/AnonymousInterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionEnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionEnumUseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/p05/DirectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/ManType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/ManTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/p05/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p05/AreaOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p05/AreaOuter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p05/AreaOuterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p05/AreaOuterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -189,7 +189,8 @@
       <workItem from="1644484093819" duration="4671000" />
       <workItem from="1645585787726" duration="4559000" />
       <workItem from="1645670091141" duration="1198000" />
-      <workItem from="1646357219074" duration="5924000" />
+      <workItem from="1646357219074" duration="7120000" />
+      <workItem from="1646378348491" duration="5230000" />
     </task>
     <servers />
   </component>
@@ -202,31 +203,39 @@
     </state>
     <state x="2472" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639654216651" />
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1638243873282" />
-    <state x="1482" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1646362460535">
+    <state x="1482" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1646380945215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="3402" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639657396639" />
-    <state x="1482" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1646362460535" />
-    <state width="913" height="161" key="GridCell.Tab.0.bottom" timestamp="1646362254021">
+    <state x="1482" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1646380945215" />
+    <state x="1180" y="248" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1646381550205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1180" y="248" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1646381550205" />
+    <state x="1216" y="280" key="FileChooserDialogImpl" timestamp="1646381313011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1216" y="280" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1646381313011" />
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1646381550265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="913" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1646362254021" />
-    <state width="913" height="161" key="GridCell.Tab.0.center" timestamp="1646362254020">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1646381550265" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1646381550264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="913" height="161" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1646362254020" />
-    <state width="913" height="161" key="GridCell.Tab.0.left" timestamp="1646362254020">
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1646381550264" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1646381550264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="913" height="161" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1646362254020" />
-    <state width="913" height="161" key="GridCell.Tab.0.right" timestamp="1646362254021">
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1646381550264" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1646381550265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1639659748126" />
-    <state width="913" height="161" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1646362254021" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1646381550265" />
     <state x="854" y="85" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1646361596649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

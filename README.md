@@ -316,3 +316,113 @@ boolean类型：false
         1. 重写一个
         2. 每个对象都重写
    
+#### 注解
+1. 注解的基本概念
+    * 注解（Annotation）又叫标注，是从Java5开始增加的一种**引用数据类型**。
+    * 注解本质上就是代码中的特殊标记，通过这些标记可以在编译、类加载以及运行时执行指定的处理。
+    
+2. 注解的语法格式
+    * 访问修饰符 @interface 注解名称｛  
+        注解成员;  
+      }  
+    * 自定义注解自动继承
+    * 通过注解@注解名称可以修饰包、类、成员方法、成员变量、构造方法、参数、局部变量的声明等。
+
+3. 注解的使用方式
+    * 注解体中只有成员变量没有成员方法，而注解的成员变量以“无形参的方法”形式来声明，
+    其方法名定义了该成员变量的名字，其返回值定义了该成员变量的类型。
+    * 如果注解只有一个参数成员，建议使用参数名value，而类型只能是8种基本数据类型、String、Class、enum及Annotation类型
+    
+4. 元注解的概念
+    * 元注解是可以注解到注解上的注解，或者说元注解是一种基本注解，
+    但是它能够应用到其他注解的上面。
+    * 元注解主要有：
+        @Retention：描述注解的生命周期，取值
+            RetentionPolicy{SOURCE, CLASS, RUNTIME}    
+        @Documented  
+        
+        @Target 
+         
+            * 指定被修饰的注解能用于哪些元素修饰，取值
+                ElementType {
+                    /**
+                     * 类、接口（包括注解类型）或枚举声明
+                     * Class, interface (including annotation type), or enum declaration
+                     * */
+                    TYPE,
+                
+                    /**
+                     * 属性声明（包括枚举常量）
+                     * Field declaration (includes enum constants)
+                     * */
+                    FIELD,
+                
+                    /**
+                     * 方法声明
+                     * Method declaration
+                     * */
+                    METHOD,
+                
+                    /**
+                     * Formal parameter declaration
+                     * */
+                    PARAMETER,
+                
+                    /** Constructor declaration */
+                    CONSTRUCTOR,
+                
+                    /**
+                     * 局部变量声明
+                     * Local variable declaration
+                     * */
+                    LOCAL_VARIABLE,
+                
+                    /** Annotation type declaration */
+                    ANNOTATION_TYPE,
+                
+                    /** Package declaration 包声明 */
+                    PACKAGE,
+                
+                    /**
+                     * Type parameter declaration
+                     *该注解能写在类型变量的声明中，如：泛型
+                     * @since 1.8
+                     */
+                    TYPE_PARAMETER,
+                
+                    /**
+                     * 使用类型的任何语句
+                     * Use of a type
+                     * @since 1.8
+                     */
+                    TYPE_USE,
+                
+                    /**
+                     * Module declaration.
+                     *
+                     * @since 9
+                     */
+                    MODULE
+        @Inherited 
+            *  不是说注解本身可以继承，而是说如果一个超类被该注解标记过的注解进行注解时，
+            如果子类没有被任何注解应用时，则子类就继承超类的注解。
+        @Repeatable 
+            *  表示自然可重复的含义，Java8新增
+
+5. 常见的预制注解（Java语言自身提供的注解）
+
+    | 注解 | 说明 |  
+    | --- | --- |   
+    | @author | 作者 |  
+    | @version | 该模块版本 |  
+    | @see |  |  
+    | @since | -- |  
+    | @param | -- |  
+    | @return | -- |  
+    | @exception | 对方法可能抛出的异常进行说明 |  
+    | @Override | 限定重写父类方法，该注解只能用于方法 |  
+    | @Deprecated | 用于表示所修饰的元素（类、方法）已过时 |  
+    | @SuppressWarnings | 抑制编译器警告 |  
+    
+        
+    
